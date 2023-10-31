@@ -91,7 +91,7 @@ footer {
     grid-template-columns: 500px auto auto auto;
     grid-template-rows: auto;
     column-gap: 100px;
-    padding-top: 70px;
+    padding-top: 40px;
   }
 
   & .logo-footer,
@@ -100,8 +100,9 @@ footer {
 
     grid-column: 1/2;
     padding-top: 40px;
-
-
+    display: flex;
+    align-items: center;
+    gap: .625rem;
   }
 
   & .services-title,
@@ -157,4 +158,112 @@ footer {
     gap: 1.25rem;
     padding-top: 40px;
   }
+}
+
+main {
+  display: flex;
+  justify-content: center;
+
+  & .main-section {
+
+    display: flex;
+    justify-content: center;
+    background-image: url(../img/desktop/Vector.png);
+    background-repeat: no-repeat;
+    background-position: left 70%;
+    width: 100%;
+  }
+
+  & section {
+
+    /* background-color: rebeccapurple; */
+    width: 1640px;
+    padding: 50px 0px 70px 0px;
+
+  }
+
+  & .texto-introduccion h2 {
+    font-size: 45px;
+  }
+
+  & .texto-introduccion h3,
+  h2,
+  p {
+    color: #1A267E;
+
+  }
+
+  & .texto-introduccion {
+
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    /* background-color: red; */
+    width: 30%;
+    gap: 1.25rem;
+    margin-top: 30px;
+
+  }
+
+  & .articulos-varios {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: orange; */
+    margin-top: 30px;
+  }
+
+  & .ui,
+  .app,
+  .web {
+
+    /* background-color: aqua; */
+    width: 32%;
+    gap: 1.25rem;
+    display: flex;
+    flex-direction: column;
+    padding: 36px;
+    box-shadow: 14px 15px 14px 0px rgba(0, 0, 0, 0.1);
+    background-color: #fefefe;
+    opacity: 0.7;
+  }
+
+  & .titulo-tarjetas {
+
+    font-size: 28px;
+    color: #1B2A7F;
+    font-weight: bolder;
+  }
+
+  & img {
+
+    width: 118px;
+    height: 118px;
+  }
+
+  & .texto-tarjetas {
+
+    font-size: 20px;
+    color: var(--azul);
+
+  }
+
+  & a {
+
+    font-size: 20px;
+    margin-top: 20px;
+    color: #1B2A7F;
+    font-weight: bolder;
+
+  }
+
+  & .vector-img {
+
+    position: absolute;
+    width: 470px;
+    height: 638.47px;
+    left: -4%;
+
+  }
+
 }
